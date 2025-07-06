@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ApplicationPropertiesRestController {
 
     @Autowired
-    PlayerDetails playerDetails;
+    PlayerDetails playerDetails; // Field Injection - Not Recommended
 
     @GetMapping("/playerdetails")
     public String detailsOfPlayer() {
