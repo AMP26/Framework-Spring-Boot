@@ -1,0 +1,13 @@
+package com.springboot.beanscopes;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class BeanscopesApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
